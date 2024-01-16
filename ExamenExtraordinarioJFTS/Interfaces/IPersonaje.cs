@@ -4,12 +4,12 @@ namespace ExamenExtraordinarioJFTS.Interfaces
 {
 	public interface IPersonaje
 	{
-        int Nivel { get; set; }
-        int Salud { get; set; }
-        int Mana { get; set; }
-        int Ataque { get; set; }
-        int Defensa { get; set; }
-        TipoDePersonajeEnum TipoDePersonaje { get; }
+        public int Nivel { get; set; }
+        public int Salud { get; set; }
+        public int Mana { get; set; }
+        public int Ataque { get; set; }
+        public int Defensa { get; set; }
+        public TipoDePersonajeEnum TipoDePersonaje { get; }
 
         void Atacar(IPersonaje objetivo);
         void Defender();

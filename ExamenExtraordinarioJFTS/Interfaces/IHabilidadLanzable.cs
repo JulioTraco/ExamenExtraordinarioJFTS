@@ -7,7 +7,7 @@ namespace ExamenExtraordinarioJFTS.Interfaces
 		public int CostoMana { get; }
 		public Boolean AutoAplicable { get; }
 		public TipoHabilidadActivaEnum Tipo { get; }
-		public int potencia { get; }
+		public int Potencia { get; }
 
 		void Lanzar(IPersonaje lanzador, IPersonaje objetivo);
 
